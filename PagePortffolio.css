@@ -1,0 +1,348 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    background-image: url('image/sam1.png');
+    background-size: cover;
+    background-position:70% 30%;
+    background-repeat: no-repeat;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 4px;
+    flex-direction: column;
+    text-align: center;
+}
+.textfoot{
+    color: #646464;
+    padding: 0px;
+    margin: 0px;
+}
+.logo_me{
+    width: 48px;
+    height: 40px;
+}
+.greet ul{
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.greet h1{
+    color: black;
+    text-align: start;
+    margin-block: 5px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    padding: 4px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+}
+li a{
+    color: rgb(3, 3, 3);
+    margin: 0 1rem;
+    text-decoration: none;
+    margin-block: 5px;
+    display: block;
+}
+li a:hover{
+    background-color: rgb(255, 214, 103);
+}
+.myname h1{
+    color:#66ffea;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 205px;
+    font-size: 40px;
+    
+}
+.myname h2{
+    color: #ffd100;
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+    margin-bottom: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.myname h3{
+    color:#66ffea;
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+    margin-bottom: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.clickable-container{
+    display: block;
+    text-decoration: none;
+    width: 250px;
+    height: 100px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+.clickable-container .content{
+    opacity: 0.8;
+    transform: scale(1.1);
+    background-color: rgb(187, 0, 0);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+    font-size: 12px;
+    border: none;
+    flex-grow: 1;
+}
+.content h1{
+    font-size: 2rem;
+    color: rgb(238, 240, 252);
+}
+.icon_footer{
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 5px;
+}
+/* ici je commence a faire la partie discover ou encor about*/
+.backdiscovcolor{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color:rgba(101, 101, 168, 0.603);
+    color: #faa48a;
+    padding-left: 20px;
+}
+.backdiscovcolor h1{
+    color: white;
+    margin-left: 80px;
+    
+}
+.backdiscovcolor h2{
+    color: #66ffea;
+    margin-left: 80px;
+    margin-top: -24px;
+    font-size: 18px;
+}
+.backdiscovcolor h3{
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.prof_picture{
+    width: 218px;
+    height: 235px;
+    border-radius: 80%;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+/*ici je commence a build the contact pages*/
+.in-contact{
+    text-align: center;
+    color: #ffffff;
+}
+.in-contact h2{
+    font-size: 35px;
+    color: #66ffea;
+    font-style: italic;
+}
+.contact-section{
+    background-color: #fecb00;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    margin-right: 65%;
+    margin-left: 10px;
+}
+.contact-from{
+    max-width: 400px;
+    margin: 5px;
+}
+.contact-from h2{
+    color: black;
+    font-size: 28px;
+    font-style: oblique;
+}
+.contact-from h4{
+    text-align: start;
+    color: black;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: -13px;
+}
+.contact-from input[type="text"],
+.contact-from input[type="email"],
+.contact-from textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.contact-from input[type="submit"]{
+    background-color:  #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-app{
+    background-color: #000000;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:680px) {
+    body{
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        margin: 0;
+        background-image: url('image/sam1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    main{
+        margin-left: 08px;
+        margin-right: 08px;
+    }
+    .myname h1{
+        color:#66ffea;
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+        margin-bottom: 205px;
+        font-size: 25px;
+        
+    }
+    .myname h2{
+        color: #ffd100;
+        display: flex;
+        justify-content: center;
+        margin-top: -60px;
+        margin-bottom: 28px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    .myname h3{
+        color:#66ffea;
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        margin-bottom: 80px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    .clickable-container{
+        display: flex;
+        text-decoration: none;
+        width: 100px;
+        height: 80px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 70%;
+        left: 50%;
+    
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:10px 20px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+        flex-grow: 1;
+    }
+    .content h1{
+        font-size: 2rem;
+        color: white;
+    }
+    .icon_footer{
+        display: flex;
+        justify-content:space-evenly;
+         margin-left: 90px;
+        margin-right: 90px;
+    }
+    /* ici je commence a faire la partie discover ou encor about*/
+    .backdiscovcolor h1{
+        color: white;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .backdiscovcolor h2{
+        color: #66ffea;
+        margin-left: 20px;
+        margin-top: -24px;
+        font-size: 18px;
+    }
+    .prof_picture{
+        vertical-align: middle;
+        width: 160px;
+        height: 160px;
+        border-radius: 80%;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    /*ici je commence a build the contact pages*/
+.contact-section{
+    background-color: #fecb00;
+    color: #000000;
+    padding: 08px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.contact-from{
+    max-width: 300px;
+    margin: 5px;
+}
+.contact-from input[type="text"],
+.contact-from input[type="email"],
+.contact-from textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.contact-from input[type="submit"]{
+    background-color:  #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+}
