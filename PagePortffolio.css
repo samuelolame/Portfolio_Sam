@@ -215,6 +215,9 @@ li a:hover{
 .contact-app{
     background-color: #000000;
     margin-bottom: 20px;
+    display: block;
+    justify-content: center;
+    font-size: large;
 }
 @media screen and (max-width:680px) {
     body{
