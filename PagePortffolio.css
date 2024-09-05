@@ -5,6 +5,7 @@ body{
     justify-content: space-between;
     height: 100vh;
     margin: 0;
+    background-color: black;
     background-image: url('image/sam1.png');
     background-size: cover;
     background-position:70% 30%;
@@ -133,7 +134,7 @@ li a:hover{
 .backdiscovcolor{
     margin-left: 0px;
     margin-right: 0px;
-    background-color:rgba(101, 101, 168, 0.603);
+    background-color:rgba(3, 3, 3, 0.568);
     color: #faa48a;
     padding-left: 20px;
 }
